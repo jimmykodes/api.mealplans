@@ -47,5 +47,6 @@ class MealPlanSerializer(WritableNestedModelSerializer):
         fields = [
             'id',
             'days',
-            'grocery_list'
+            'grocery_list',
+            'start_date'
         ]
